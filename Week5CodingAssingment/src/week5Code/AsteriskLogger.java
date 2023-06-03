@@ -32,7 +32,7 @@ package week5Code;
 			// TODO Auto-generated method stub
 			String spaced = "";
 			for (int i = 0; i<message.length();i++) {
-				spaced+=message.charAt(i)+ "";
+				spaced+=message.charAt(i)+ " ";
 			}
 			System.out.println(spaced);
 		}
@@ -42,7 +42,7 @@ package week5Code;
 			// TODO Auto-generated method stub
 			String spaced = "";
 			for (int i = 0;i < message.length();i++) {
-				spaced += message.charAt(i) + "";
+				spaced += message.charAt(i) + " ";
 			}
 			System.out.println("ERROR: " + spaced);
 		}
